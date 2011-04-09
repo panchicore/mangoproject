@@ -1,0 +1,19 @@
+# build artifacts
+*.pyc
+*.egg-info
+build
+target
+
+# OSX specific
+.Python
+.DS_Store
+
+# pip output files
+pip-log.txt
+
+#Temporary files
+*~
+
+# Django Specific
+local_settings.py
+
