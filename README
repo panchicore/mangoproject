@@ -1,1 +1,7 @@
-ithis is the readme file
+to install the requeriment use:
+
+first isntall PIP:
+easy_install pip
+
+then:
+pip install -r requeriments
