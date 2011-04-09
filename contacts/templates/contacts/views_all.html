@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+        <ul>
+            {% for c in contacts %}
+            <li>{{ c }}
+                <ol>
+                    {% for h in c.history.all %}
+                    <li>{{ h }}</li>
+                    {% endfor %}
+                </ol>
+            </li>
+            {% endfor %}
+        </ul>
+
+{% endblock %}

@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'mangoproject.views.home', name='home'),
+    url(r'^$', 'contacts.views.view_all', name='contact_view_all'),
     # url(r'^mangoproject/', include('mangoproject.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
